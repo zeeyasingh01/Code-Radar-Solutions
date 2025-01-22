@@ -1,7 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    printf("A");
+    char chr ="A";
+    printf("character= %c",chr);
     return 0;
+    
 
 }
