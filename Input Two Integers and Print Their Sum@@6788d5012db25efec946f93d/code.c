@@ -3,8 +3,9 @@
 int main()
 {
     int num1,num2,sum;
+    printf("enter the two integers:");
+    scanf("%d",&num1,&num2);
     printf("%d",sum);
-    scanf("%d",&sum);
     return 0;
-    
+
 }
