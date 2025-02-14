@@ -10,7 +10,7 @@ int main()
     scanf("%d\n",&age);
     printf("enter the hobby:\n");
     scanf("%s\n",&hobby);
-    printf("%c\n%d\n%c\n",name,age,hobby);
+    printf("%s\n%d\n%s\n",name,age,hobby);
     return 0;
 
 }
