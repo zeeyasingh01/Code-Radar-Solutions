@@ -5,11 +5,11 @@ int main()
     int age;
     char hobby;
     printf("enter the name:");
-    scanf("%c",&name);
+    scanf("%c\n",&name);
     printf("enter age:");
-    scanf("%d",&age);
+    scanf("%d\n",&age);
     printf("enter the hobby:");
-    scanf("%c",&hobby);
+    scanf("%c\n",&hobby);
     return 0;
-    
+
 }
