@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    float point;
-    scanf("%f",&point);
-    printf("You entered:%f",point);
+    float f;
+    scanf("%f",&f);
+    printf("You entered:%f",f);
     return 0;
 }
