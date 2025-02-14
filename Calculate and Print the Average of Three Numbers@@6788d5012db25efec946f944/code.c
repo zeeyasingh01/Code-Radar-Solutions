@@ -2,8 +2,6 @@
 int main()
 {
     int a,b,c,sum,average;
-    printf("enter three number:");
-    scanf("%d",&number);
     printf("enter a:");
     scanf("%d",&a);
     printf("enter b:");
@@ -15,5 +13,5 @@ int main()
     printf("average is:%d",a+b+c/3);
     scanf("%d",&average);
     return 0;
-    
+
 }
