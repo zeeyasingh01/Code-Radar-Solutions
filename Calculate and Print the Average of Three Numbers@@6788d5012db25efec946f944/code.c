@@ -8,8 +8,8 @@ int main()
     scanf("%d",&b);
     printf("enter c:\t");
     scanf("%d",&c);
-    sum = a+b+c;
-    average = sum/3;
+    
+    average = a+b+c/3;
    
     printf("average:%d",average);
 
