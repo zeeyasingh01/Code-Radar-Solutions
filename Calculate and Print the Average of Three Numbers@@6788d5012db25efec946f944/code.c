@@ -8,10 +8,11 @@ int main()
     scanf("%d",&b);
     printf("enter c:\t");
     scanf("%d",&c);
-    printf("sum is:%d",a+b+c);
-    scanf("%d",&sum);
-    printf("average is:%d",a+b+c/3);
-    scanf("%d",&average);
+    sum = a+b+c;
+    average = sum/3;
+    printf("sum is:%d",sum);
+    printf("average is:%d",average);
+    
     return 0;
 
 }
