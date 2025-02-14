@@ -10,9 +10,9 @@ int main()
     scanf("%d",&c);
     sum = a+b+c;
     average = sum/3;
-    printf("sum is:%d",sum);
-    printf("average is:%d",average);
-    
+   
+    printf("average:%d",average);
+
     return 0;
 
 }
