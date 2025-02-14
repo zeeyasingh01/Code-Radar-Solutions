@@ -12,7 +12,7 @@ int main()
     
     average = (a+b+c)/3.0;
    
-    printf("average:%2f",average);
+    printf("average:%.2f",average);
 
     return 0;
 
