@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    float point;
-    scanf("%le",&point);
-    printf("You entered: %le",point)
+    double point;
+    scanf("%lf",&point);
+    printf("You entered: %lf",point)
     return 0;
 
 }
