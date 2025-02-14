@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    str name;
+    char name;
     int age;
-    str hobby;
+    char hobby;
     printf("enter the name:\n");
     scanf("%s\n",&name);
     printf("enter age:\n");
