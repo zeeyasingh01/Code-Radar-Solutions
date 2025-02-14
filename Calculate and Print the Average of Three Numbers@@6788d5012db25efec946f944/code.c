@@ -2,11 +2,11 @@
 int main()
 {
     int a,b,c,sum,average;
-    printf("enter a:");
+    printf("enter a:\t");
     scanf("%d",&a);
-    printf("enter b:");
+    printf("enter b:\t");
     scanf("%d",&b);
-    printf("enter c:");
+    printf("enter c:\t");
     scanf("%d",&c);
     printf("sum is:%d",a+b+c);
     scanf("%d",&sum);
