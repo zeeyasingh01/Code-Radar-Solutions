@@ -2,8 +2,8 @@
 int main()
 {
     double point;
-    scanf("%le",&point);
-    printf("You entered: %le",point)
+    scanf("%f",&point);
+    printf("You entered: %f",point)
     return 0;
 
 }
