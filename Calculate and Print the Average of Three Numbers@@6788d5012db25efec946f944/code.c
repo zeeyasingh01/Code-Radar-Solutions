@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int a,b,c,average;
+    int a,b,c;
+    float average;
     printf("enter a:\t");
     scanf("%d",&a);
     printf("enter b:\t");
@@ -9,9 +10,9 @@ int main()
     printf("enter c:\t");
     scanf("%d",&c);
     
-    average = a+b+c/3;
+    average = (a+b+c)/3.0;
    
-    printf("average:%d",average);
+    printf("average:%2f",average);
 
     return 0;
 
