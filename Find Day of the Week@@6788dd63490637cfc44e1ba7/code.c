@@ -20,7 +20,7 @@ int main()
 
     }
     else if(i==6){
-        p[rintf("Saturday");]
+        printf("Saturday");
     }
     else if(i==7){
         printf("Sunday");
