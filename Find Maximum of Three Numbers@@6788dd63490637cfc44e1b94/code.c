@@ -9,8 +9,11 @@ int main()
     else if(b>a&c){
         printf("%d",b);
     }
-    else{
+    else if(c>b&a){
         printf("%d",c);
+    }
+    else{
+        printf("Equal");
     }
     return 0;
 }
