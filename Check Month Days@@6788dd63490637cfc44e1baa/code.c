@@ -1,34 +1,48 @@
 #include<stdio.h>
 int main()
 {
-    int i;
-    scanf("%d",&i);
+    int days;
+    scanf("%d",&days);
     switch(days){
-        case 1:("31")
+        case 1:
+        printf("31");
         break;
-        case 2:("28")
+        case 2:
+        pritf("28");
         break;
-        case 3:("31")
+        case 3:
+        printf("31");
         break;
-        case 4:("30")
+        case 4:
+        printf("30");
         break;
-        case 5:("31")
+        case 5:
+        printf("31");
         break;
-        case 6:("30")
+        case 6:
+        printf("30");
         break;
-        case 7:("31")
+        case 7:
+        printf("31");
         break;
-        case 8:("31")
+        case 8:
+        printf("31");
         break;
-        case 9:("30")
+        case 9:
+        printf("30");
         break;
-        case 10:("31");
+        case 10:
+        printf("31");
         break;
-        case 11:("30")
+        case 11:
+        printf("30");
         break;
-        case 12:("31")
+        case 12:
+        printf("31");
         break;
-        default:("Invalid month");
+        default:
+        printf("Invalid month");
+        break;
 
     }
     return 0;
