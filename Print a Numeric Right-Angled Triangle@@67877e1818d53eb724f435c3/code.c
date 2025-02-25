@@ -11,7 +11,7 @@ int main()
             {
                 printf(" ");
             }
-            printf("%d");
+            printf("%d",i);
         }
         printf("\n");
     }
