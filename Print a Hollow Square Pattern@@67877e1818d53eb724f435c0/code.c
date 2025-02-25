@@ -7,7 +7,7 @@ int main()
     {
         for(j=1;j<=N;j++)
         {
-            if(1==1||i==N||j==1||j==N){
+            if(i == 1||i == N||j == 1||j == N){
                 printf("*");
             }
             else{
