@@ -7,7 +7,7 @@ int main()
     {
         printf("Freezing");
     }
-    ele{
+    else{
         printf("Above Freezing");
     }
     return 0;
